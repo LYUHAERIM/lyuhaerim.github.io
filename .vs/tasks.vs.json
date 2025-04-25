@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-2025-04-25-Test",
+      "appliesTo": "_posts/2025-04-25-Test.md",
+      "type": "launch"
+    }
+  ]
+}

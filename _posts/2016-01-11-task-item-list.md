@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: 
 title: Task Item List
 tags: [to-do list]
 ---
