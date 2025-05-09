@@ -15,9 +15,6 @@ tags: [AI, 코딩테스트, 졸업준비, 타자연습, 프로젝트, GitHub]
 - 각 분야의 기본 개념을 학습한 후, 개인 프로젝트에 적용해 보면서 AI에 대한 흥미와 적성을 탐색하려 합니다.
 - 프로젝트에 활용할 AI 관련 서적을 구입하려고 합니다.
 
-![Image](https://github.com/user-attachments/assets/ce4ff5a4-a193-471a-a22f-1442da128fe5)
-
-
 
 ## 2. 개인 프로젝트 준비
 
