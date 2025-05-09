@@ -1,16 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\assets\\css",
-    "\\scripts",
-    "\\_data",
-    "\\_includes",
-    "\\_layouts",
     "\\_posts",
-    "\\_sass",
     "\\_sass\\hamilton"
   ],
-  "SelectedNode": "\\_includes\\header.html",
+  "SelectedNode": "\\_posts\\2025-03-14-capstone-week1.md",
   "PreviewInSolutionExplorer": false
 }
