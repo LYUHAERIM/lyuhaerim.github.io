@@ -3,7 +3,6 @@ description: Rim2 Github pages!
 author: Haerim Ryu
 avatar: /logo.png
 email: haerim0228@naver.com
-baseurl: "/lyuhaerim.github.io"
 
 plugins:
   - jekyll-seo-tag
