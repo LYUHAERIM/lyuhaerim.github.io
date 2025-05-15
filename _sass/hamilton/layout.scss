@@ -24,10 +24,9 @@
 }
 
 .wrapper {
-    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1.5rem;
     gap: 5rem;
 
     @media (max-width: 768px) {
@@ -68,7 +67,7 @@
 .site-nav {
     position: absolute;
     top: 12px;
-    right: $spacing-unit / 2;
+    right: $spacing-unit*10;
     border: 1px solid;
     border-radius: 0.4em;
     text-align: right;
@@ -195,15 +194,21 @@
  */
 .site-body {
     display: grid;
-    grid-template-columns: calc(#{$content-width} * 0.24) 1fr;
+    grid-template-columns: calc(#{$content-width} * 0.35) 1fr;
     overflow: hidden;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
 
     @include media-query($on-medium) {
-        grid-template-columns: calc(#{$content-width} * 0.18) 1fr;
+        grid-template-columns: calc(#{$content-width} * 0.2) 1fr;
+        padding-left: $spacing-unit / 2;
+        padding-right: $spacing-unit / 2;
     }
 
     @include media-query($on-small) {
         grid-template-columns: 1fr;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -211,12 +216,16 @@
  * Site sidebar
  */
 .site-sidebar {
-    padding: $spacing-unit;
+    padding-left: $spacing-unit * 3;
+    padding-right: $spacing-unit * 3;
+    padding-top: $spacing-unit;
     border-right: 1px solid;
-    @include relative-font-size(0.8);
+    @include relative-font-size(0.7);
 
     @include media-query($on-medium) {
-        padding: $spacing-unit / 2;
+        padding-left: $spacing-unit;
+        padding-right: $spacing-unit;
+        padding-top: $spacing-unit / 2;
         @include relative-font-size(0.6);
     }
 
@@ -664,10 +673,13 @@ figcaption.align-center {
  * Site footer
  */
 .site-footer {
-    margin-top: $spacing-unit * 2;
+    margin-top: $spacing-unit / 2;
     border-top: 1px solid;
-    padding: $spacing-unit 0;
-    @include relative-font-size(0.8);
+    padding-top: $spacing-unit / 2;
+    padding-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+    @include relative-font-size(0.6);
 
     p, ul {
         margin-bottom: $spacing-unit / 4;

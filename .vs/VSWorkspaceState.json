@@ -1,10 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\css",
+    "\\assets",
+    "\\images",
+    "\\images\\0509",
+    "\\_data",
+    "\\_includes",
+    "\\_layouts",
     "\\_posts",
+    "\\_sass",
     "\\_sass\\hamilton"
   ],
-  "SelectedNode": "\\_posts\\2025-03-14-capstone-week1.md",
+  "SelectedNode": "\\_sass\\hamilton\\variables.scss",
   "PreviewInSolutionExplorer": false
 }
