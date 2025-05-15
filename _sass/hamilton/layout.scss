@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Site container
  */
 .site-container {
@@ -592,6 +592,24 @@ ul.post-categories {
         p, blockquote, pre, figure, iframe, %vertical-rhythm {
             margin-bottom: $spacing-unit / 3;
         }
+    }
+
+    .img-caption {
+        text-align: center; /* 텍스트 가운데 정렬 */
+        font-size: 0.9em; /* 폰트 크기 약간 줄임 */
+        color: #555; /* 연한 회색 */
+        margin-top: 0.3em; /* 위쪽 여백을 주면 글자가 이미지와 살짝 떨어져 보임 */
+    }
+
+    .img-caption img {
+        max-width: 100%; /* 반응형 이미지로 사이즈 조절 */
+        height: auto;
+        display: block;
+        margin: 0 auto; /* 이미지도 가운데 정렬 */
+    }
+
+    .img-caption p {
+        margin: 0.5em 0 0 0; /* 캡션 위쪽 여백 설정 */
     }
 }
 
