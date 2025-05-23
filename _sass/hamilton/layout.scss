@@ -594,6 +594,13 @@ ul.post-categories {
         }
     }
 
+    .img-caption-group {
+        display: grid; /* 그리드 레이아웃 사용 */
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* 반응형 1열~여러 열 구성 */
+        gap: 16px; /* 항목 사이의 간격 */
+        margin-top: 1.5em; /* 위쪽 여백 */
+    }
+
     .img-caption {
         text-align: center; /* 텍스트 가운데 정렬 */
         font-size: 0.9em; /* 폰트 크기 약간 줄임 */
@@ -606,10 +613,20 @@ ul.post-categories {
         height: auto;
         display: block;
         margin: 0 auto; /* 이미지도 가운데 정렬 */
+        border-radius: 8px; /* 살짝 둥글게 */
     }
 
     .img-caption p {
         margin: 0.5em 0 0 0; /* 캡션 위쪽 여백 설정 */
+    }
+
+    .uniform-img img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto;
+        border-radius: 8px;
     }
 }
 
